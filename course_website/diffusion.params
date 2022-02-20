@@ -1,0 +1,16 @@
+# header_file, config_file (input files for configuration)
+chromo_col_13.head sim.trajec
+# mass_file, pot_file (Force Field files)
+mass.ff pot.ff 
+# n_species_chk (used only to read the exclusion array below)
+2
+# excl_switch (i = 0, n_species_chk - 1) (if = -1, all intra. int. excluded)
+-1 -1  
+# n_cycles (MC cycles)
+10000 
+# n_block, n_trajec
+100 100 
+# seed (random generator)
+123456
+#delta n_msd first_msd water_diffusion
+1 10 1 0

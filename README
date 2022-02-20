@@ -1,0 +1,7 @@
+1) Preparation of "publication.html" page:
+    a. Copy paste full google scholar entry into libreOffice Calc (libreOffice Excel sheet).
+    b. Export it into a new html file ("google_scholar.html")
+    c. Use https://www.freeformatter.com/html-formatter.html to indent the exported html ("google_scholar.html") prepared using libreOffice Calc.
+    d. Open the indented html file ("google_scholar.html") and remove all style attributes from all table tags 
+    e. From the <body> section of this file ("google_scholar.html"), Copy the full table from beginning to the end
+    f. Open "publication.html" and paste the table within the space between the comments "<!--Begin-->" and "<!--End-->"

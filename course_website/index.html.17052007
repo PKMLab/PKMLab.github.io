@@ -1,0 +1,137 @@
+
+<head>
+<TITLE>New Page 1</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+</head>
+
+<HTML>
+<BODY>
+<DIV align=center>
+<CENTER>
+<TABLE borderColor=#0000ff height=289 cellSpacing=0 cellPadding=0 width="99%" 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width="90%" height=105>
+      <P align=center><b><FONT face="Palatino Linotype" color=#808000 size=5>Course 
+      : PH 322: Molecular Simulation</FONT></b></P>
+      <P align=center>
+      <FONT face="Palatino Linotype" color=#50527E 
+      size=5><b><I>Instructor :</I> Prabal K Maiti</b></FONT><P align=center> </P></TD></TR>
+  <TR>
+    <TD vAlign=top width="90%" bgColor=#50527E height=10></TD></TR>
+  <TR>
+    <TD vAlign=top width="90%" height=129>
+      <P align=center> 
+      <P align=center> 
+      <P align=center>&nbsp;<P align=center><font color="#50527E"><i><B>
+      <FONT face="Book Antiqua" 
+      size=5>Classes for the above course will be held on</FONT></B><font size="5">
+      </font> 
+      </i></font><P align=center>
+      <b>
+      <FONT face="Palatino Linotype" color=#808000 
+      size=5>Tuesday - </FONT><I>
+      <FONT face="Palatino Linotype" color=#808000 
+      size=5>10.00 am to 11.30 am and</FONT></I><FONT face="Palatino Linotype" color=#808000 size=5> Thursday - 10:00 am to  11.30 am
+      </FONT></b><P align=center>
+      <b>
+      <FONT face="Palatino Linotype" color=#50527E 
+      size=5><I>Venue:</I> Physics Department Lecture Hall 1</FONT></b></TD></TR>
+  </TBODY></TABLE></CENTER></DIV>
+  <BR>&nbsp;<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="49%" id="AutoNumber2" align="left">
+  <tr>
+    <td width="49%" bgcolor="#808000"><b>
+    <font face="Book Antiqua"><a href="Lecture1.ppt">
+    <font color="#FFFFFF">Lecture 1</font></a></font></b></td>
+    <td width="51%" bgcolor="#808000"><b>
+    <font face="Book Antiqua">
+    <a href="Lecture2-3.ppt"><font color="#FFFFFF">Lecture 2-3</font></a></font></b></td>
+  </tr>
+  <tr>
+    <td width="49%" bgcolor="#808000"><b>
+    <font face="Book Antiqua"><a href="Lecture4.ppt">
+    <font color="#FFFFFF">Lecture 4</font></a></font></b></td>
+    <td width="51%" bgcolor="#808000"><b>
+    <font face="Book Antiqua">
+    <a href="Lecture5_Ewald.PPT"><font color="#FFFFFF">Lecture 
+    5-7   &nbsp;(Ewald Method)</font></a></font></b></td>
+  </tr>
+  <tr>
+    <td width="49%" bgcolor="#808000"><b>
+    <font face="Book Antiqua"><a href="Lecture8.ppt">
+    <font color="#FFFFFF">Lecture 8 &nbsp;(Charge Schemes) </font></a></font></b></td>
+    <td width="51%" bgcolor="#808000"><b>
+    <font face="Book Antiqua" color="#FFFFFF"><a href="Lecture10.ppt">
+    <font color="#FFFFFF">Lecture 9-10 &nbsp; (Thermostat and Barostat)</font></a></font></b></td>
+  </tr>
+  <tr>
+    <td width="49%" bgcolor="#808000"><b>
+    <font face="Book Antiqua" color="#FFFFFF"><a href="Lecture11_MC.PPT">
+    <font color="#FFFFFF">Lecture 11 &nbsp; (Monte Carlo) </font></a></font></b></td>
+    <td width="51%" bgcolor="#808000"><b>
+    <font face="Book Antiqua" color="#FFFFFF"><a href="rigid_body_MC.ppt">
+    <font color="#FFFFFF">Lecture 12 &nbsp; (Rigid Body) </font></a></font></b></td>
+  </tr>
+<tr>
+ <td width="51%" bgcolor="#808000"><b>
+    <font face="Book Antiqua" color="#FFFFFF"><a href="Free_energy.ppt">
+    <font color="#FFFFFF">Lecture 17-19 </font></a></font></b></td>
+
+    <td width="49%" bgcolor="#808000"><b>
+    <font face="Book Antiqua" color="#FFFFFF"><a href="pkm_Solvation.ppt">
+    <font color="#FFFFFF">Lecture 20-22 </font></a></font></b></td>
+  </tr>
+
+  </table>
+
+
+
+<p><BR><BR>
+</p>
+<center>
+<p>&nbsp;</p>
+</center>
+<br><BR>
+<u> <font size=4 color=red>Student's Presentations (2006):</font></u>
+<br><BR> <font size=4>
+24th April: &nbsp; Tapan Adhyapak:&nbsp; Comparison of various water models: TIP3P, 
+TIP4P, TIP5P, SPC/E, F3C
+<br>
+25th April: &nbsp;  Bharat.V.Adkar+ Bob: &nbsp; <a href="umbrella_sampling.ppt">Potential of mean force using Umbrella 
+sampling </a>
+<bR>
+26th April: &nbsp;  Simil Thomas:  &nbsp; <a href=" BDNA.pdf">Simulating B-DNA to characterize the basic DNA
+properties.</a> <br>
+
+27th April: &nbsp;  Raghu Meetei: &nbsp; <a href="nanoring_talk.ppt"> Simulating water diffusion in a carbon nanoring </a>.
+<br>
+28th April: &nbsp; Biman Jana: &nbsp; <a href="I-N-S.ppt">  Studying Isotropic-Nematic-Smectic transition in 
+confined geometry using spherocylinder model</a>.
+<br>
+29th April: &nbsp; Chaitanya: &nbsp; <a href="chaitanya_bhaskar_30Apr06.ppt">Surface tension of liquid/vapor interface and 
+surfactant monolayer in between oil/water interface using coarse-grained 
+model.</a>
+<br>
+29th April: &nbsp; Ramya Gamini: &nbsp; <a href="pmf_rateconst.ppt">PMF calculation to compute the chemical rate 
+constant.</a>
+<br>
+1st May: &nbsp; Rashmi Behera &nbsp; <a href="dna_histone.ppt"> Unwrapping of DNA-Histone Complex under external stretching</a>
+
+<br>
+<u> <font size=4 color=red>Student's Presentations (2007):</font></u> 
+<font size="4">Suman Kalyan Samanta:
+<a href="Molecular%20Dynamic%20Simulation%20Of%20Multiheaded%20Surfactants%20.ppt">
+Molecular Dynamic Simulation Of Multiheaded Surfactants</a></font><span style="color: black; mso-color-index: 3"><font size="4">
+</font></span><br>
+<span style="font-family: Times New Roman; mso-color-index: 3">
+<font size="4">Santosh M, Santhosh D, Vikram Rathee</font></span><font face="Times New Roman"><font size="4">:</font><a href="Ripples%20in%20Graphene%20via%20Molecular%20Dynamics%20Simulation.ppt"><font size="4">Ripples 
+in Graphene via Molecular Dynamics Simulation</font></a></font><span style="font-family: Batang"><font size="4">&nbsp;&nbsp;&nbsp;
+</font></span><br>
+<span style="font-family: Batang"><font size="4">Usha and Dibyendu</font></span><font face="Times New Roman" size="4">:<a href="PMF%20calculation%20of%20DNAs%20in%20solution%20using%20umbrella%20sampling.ppt">PMF 
+Calculation of DNAs in solution using umbrella sampling</a></font><br>
+
+
+    </BODY></HTML>

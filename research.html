@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>PKMLab | Research</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="as/3/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="as/3/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="as/3/slick.css">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="as/3/bootstrap-datepicker.css">    
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="as/3/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="as/3/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>        
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>  
+    <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+        <i class="fa fa-angle-up"></i>
+        <span>Top</span>
+    </a>
+    <!-- END SCROLL TOP BUTTON -->
+
+    <!-- Start header section -->
+    <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+        <div class="container">
+        <div class="navbar-header">
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <!-- LOGO -->                                                        
+            <a class="navbar-brand" href="index.html"><img src="images/logo_iisc.svg" alt="Logo img"></a> 
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="teaching.html">TEACHING</a></li>
+            <li><a href="publication.html">PUBLICATIONS</a></li>
+            <li><a href="softwares.html">SOFTWARES</a></li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="group.html">GROUP <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu"> 
+                <li><a href="group-present.html">PRESENT</a></li>
+                <li><a href="group-past.html">ALUMNI</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#mu-contact">CONTACT</a></li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="blog.html">OTHERS<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu"> 
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="research-interest.html">RESEARCH INTEREST</a></li>
+                <li><a href="personal-interest.html">PERSONAL INTEREST</a></li>
+                </ul>
+            </li>
+
+            </ul>                            
+        </div><!--/.nav-collapse -->       
+        </div>          
+    </nav> 
+    </header>
+    <!-- End header section -->
+
+    <!-- Start Group banner  -->
+    <section id="mu-blog-banner">
+        <div class="container">
+        <div class="mu-blog-banner-area">
+            <h2>Research</h2>
+        </div>
+        </div>
+    </section>
+    <!-- End Blog banner -->
+
+    <!-- Start Softwares section -->
+    <section id="mu-research">
+        <div class="container">
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/hiv.gif" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Modelling HIV fusion</h2></span>
+                            <p>The HIV-1 envelope glycoprotein gp41 mediates the fusion between viral and host cell membranes leading to virus entry and target cell infection. Despite years of research, important aspects of this process such as the number of gp41 trimers involved and how they orchestrate the rearrangement of the lipids in the apposed membranes along the fusion pathway remain obscure. To elucidate these molecular underpinnings, we performed coarse-grained molecular dynamics simulations of HIV-1 virions pinned to the CD4 T cell membrane by different numbers of gp41 trimers. We built realistic cell and viral membranes by mimicking their respective lipid compositions. We found that a single gp41 was inadequate for mediating fusion. Lipid mixing between membranes, indicating the onset of fusion, was efficient when three or more gp41 trimers pinned the membranes. The gp41 trimers interacted strongly with many different lipids in the host cell membrane, triggering lipid configurational rearrangements, exchange, and mixing. Simpler membranes, comprising fewer lipid types, displayed strong resistance to fusion, revealing the crucial role of the lipidomes in HIV-1 entry. Performing simulations at different temperatures, we estimated the free energy barrier to lipid mixing, and hence membrane stalk formation, with three and four tethering gp41 trimers to be ∼6.2 kcal/mol, a >4-fold reduction over estimates without gp41. Together, these findings present molecular-level, quantitative insights into the early stages of gp41-mediated HIV-1 entry. Preventing the requisite gp41 molecules from tethering the membranes or altering membrane lipid compositions may be potential intervention strategies.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> J. Chem. Inf. Model. 2021, 61, 1, 444–454</li>
+                                    <li><a href="https://phys.org/news/2021-02-hiv-fusion.html"><i>https://phys.org/news/2021-02-hiv-fusion.html</i></a></li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/syntheticnanopore.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Synthetic nanopores made of DNA and RNA</h2></span>
+                            <p>Nucleic acid nanotubes are programable nanopores whose design and synthesis is mainly aided by the properties of self-assembly of DNA or RNA. In this study we present a computational framework to model DNA or RNA based nanotubes and study their mechanical and thermodynamical properties. Our one of the first DNA nanostructure simulation done for a system consisting few million atoms where we address the structural and mechanical stability of synthetic nanopores made of DNA. We then embedded the nanopore in lipid bilayer to measure the ionic conductivity. We then take one step further and prepare synthetic nanopores made of RNA. All this investigation emphasized the fascinating properties of nucleic acid-based nanotubes which will expedite further theoretical and experimental studies in this field.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> ACS Nano(2016), NAR(2018), Nanoscale(2019)</li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/supercapacitor.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Understanding the Thermodynamics of the Binding of PAMAM Dendrimers to Graphene</h2></span>
+                            <p>Can dendrimers be used as electrolytes in electric double-layer based energy storage devices (supercapacitors)? As improving the energy densities of these devices of immense importance, we are currently investigating how dendrimer-based supercapacitors can cater the need of the hour. We develop multiscale modeling approaches to understand the electric double-layer formation by dendrimer at a graphene/water interface. We have achieved a capacitive enhancement of about 39 % with a single dendrimer as electrolyte as compared to that of aqueous electrolyte.</p>
+			    <p><b>Equilibrium configurations of G3-G6 PAMAM dendrimers: </b><a href="as/4/Dendrimer_Structure-pamam-EDA-allpH.zip"> <strong> Here </strong></a></p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> Gosika M, Sen S, Kundagrami A, Maiti PK. Understanding the Thermodynamics of the Binding of PAMAM Dendrimers to Graphene: A Combined Analytical and Simulation Study. Langmuir. 2019 Jun 21;35(28):9219-32.</li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/translocationbiomol.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Translocation of Bioactive Molecules through Carbon Nanotubes Embedded in the Lipid Membrane</h2></span>
+                            <p>One of the major challenges of nanomedicine and gene therapy is the effective translocation of drugs and genes across cell membranes. In this study, we describe a systematic procedure that could be useful for efficient drug and gene delivery into the cell. Using fully atomistic molecular dynamics (MD) simulations, we show that molecules of various shapes, sizes, and chemistries can be spontaneously encapsulated in a single-walled carbon nanotube (SWCNT) embedded in a 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) lipid bilayer, as we have exemplified with dendrimers, asiRNA, ssDNA, and ubiquitin protein.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> ACS Appl. Mater. Interfaces 2018</li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/proton_kinetic.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Microscopic Study of Proton Kinetic Energy Anomaly for Nanoconfined Water</h2></span>
+                            <p>Water is a substantial topic of research due to its peculiar properties and critical role in biology and chemistry. One such fascinating aspect of water physics is the unusual behavior of water compared to its ordinary bulk phases, when in the vicinity of the surfaces and in confined geometry. Using molecular dynamics simulations, we succeeded to address the reported anomalies of the proton mean kinetic energy, Ke(H), in nanoconfined water.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> Moid M, Finkelstein Y, Moreh R, Maiti PK. Microscopic Study of Proton Kinetic Energy Anomaly for Nanoconfined Water. The Journal of Physical Chemistry B. 2019 Dec 5;124(1):190-8. </li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/liquid_crystal_DNA.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Liquid crystal ordering of nucleic acids</h2></span>
+                            <p>Self-assembly is ubiquitous in nature and understanding and controlling this process is interesting to several biotechnological purposes. A simple but interesting self-assembly process occurs for Nucleic acids (NAs) where small unit of NAs form long linear aggregates due to anisotropic interaction between them. In a recent study, using all-atom MD simulation we explicitly verify the end-to-end stacking of dsRNA and demonstrate the formation of supra-molecular NA columns that undergo an LC ordering at high volume fraction.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> Supriyo Naskar, Suman Saurabh, Yun Hee Jang, Yves Lansac, and Prabal K. Maiti. "Liquid crystal ordering of nucleic acids." Soft Matter 16, no. 3 (2020): 634-641.</li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img style="width: 50%" src="images/research_thumbnails/DNA_salt_nanotube.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Understanding of Nucleic Acids Properties</h2></span>
+                            <p>The DNA and RNA systems are the molecules of life. From electrical to mechanical properties of DNA/RNA, we have explored various fascinating aspects of nucleic acids in our works and revealed many interesting applications of nucleic acids such as using biomolecules in biosensors, molecular wires, and so on. We also present a computational framework to model DNA or RNA based nanotubes and study their mechanical and thermodynamical properties by simulating big systems consisting of few million atoms.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> Aggarwal A, Naskar S, Sahoo AK, Mogurampelly S, Garai A, Maiti PK, What do we know about DNA mechanics so far? Current opinion in structural biology, 2020. 64: p. 42-50</li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row research-card fadeIn">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="images/research_thumbnails/biomolecular_electronics.png" >
+                    </div>
+                </div>
+                <div class="col-md-8 research-info">
+                    <div class="row">
+                        <div class="card-content">
+                            <span class="card-title"><h2>Biomolecular Electronics</h2></span>
+                            <p>The DNA and RNA systems are the molecules of life. I ask the simple question: Can the molecule of life be used as a molecule of electronics? In that line, we have done a magnificent amount of work from characterizing the electrical properties of DNA and RNA to the proposal of using biomolecules in bio-sensors. Understanding the electrical properties of DNA and RNA will help in understanding the oxidative damage processes and battling genetic diseases like cancer. Our next motive is to simulate proteins and understand their charge transport properties to provide insights into essential biological functions such as photosynthesis, DNA repair, and so on.</p>
+                            <p><b>Please refer: </b> 
+                                <u>
+                                    <li> Aggarwal et al.., 2020. Multiscale modelling reveals higher charge transport efficiencies of DNA relative to RNA independent of mechanism. Nanoscale, 12(36), pp.18750-18760.</li>
+                                    <li> Bag et al., 2016. Dramatic changes in DNA conductance with stretching: structural polymorphism at a critical extension. Nanoscale, 8(35), pp.16044-16052.</li>
+                                    <li>Aggarwal et al., 2021 Predicting the DNA Conductance Using a Deep Feedforward Neural Network Model. J. Chem. Inf. Model. 2021, 61, 1, 106–114.</li>
+                                </u>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+            
+
+    <!-- Start Footer -->
+    <footer id="mu-footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+            <div class="mu-footer-social">
+                <a class="isDisabled" href="#"><span class="fa fa-facebook"></span></a>
+                <a class="isDisabled" href="#"><span class="fa fa-twitter"></span></a>
+                <a class="isDisabled" href="#"><span class="fa fa-google-plus"></span></a>
+                <a class="isDisabled" href="#"><span class="fa fa-linkedin"></span></a>
+                <a class="isDisabled" href="#"><span class="fa fa-youtube"></span></a>
+            </div>
+              
+        </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+    <!-- End Footer -->
+
+        <!-- jQuery library -->
+        <script src="as/1/jquery.min.js"></script>  
+        <!-- Bootstrap -->
+        <script src="as/1/bootstrap.js"></script>   
+        <!-- Slick slider -->
+        <script type="text/javascript" src="as/1/slick.js"></script>
+        <!-- Counter -->
+        <script type="text/javascript" src="as/1/waypoints.js"></script>
+        <script type="text/javascript" src="as/1/jquery.counterup.js"></script>
+        <!-- Date Picker -->
+        <script type="text/javascript" src="as/1/bootstrap-datepicker.js"></script> 
+        <!-- Mixit slider -->
+        <script type="text/javascript" src="as/1/jquery.mixitup.js"></script>
+        <!-- Add fancyBox -->        
+        <script type="text/javascript" src="as/1/jquery.fancybox.pack.js"></script>
+    
+        <!-- Custom js -->
+        <script src="as/1/custom.js"></script> 
+    
+    </body>
+    </html>

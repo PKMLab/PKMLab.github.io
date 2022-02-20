@@ -1,0 +1,205 @@
+<div style="color: rgb(153, 0, 0); text-align: center;">
+<hr size="2" width="100%">
+<font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b><font style="color: rgb(162, 196, 201); font-family: times new roman,serif;" size="1"><i>DBT</i></font></b></font><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b><br>
+<a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/home.html" style="color: rgb(153, 0, 0);">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/download.html" style="color: rgb(153, 0, 0);">Download</a></b></font><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; </b></font><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/tutorial.html"><font style="color: rgb(153, 0, 0);" size="4"><font style="font-family: times new roman,serif;"><b>Tutorial</b></font></font></a><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b> &nbsp;&nbsp;&nbsp; </b></font><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/reference.html" style="color: rgb(153, 0, 0);"><font style="color: rgb(153, 0, 0);" size="4"><font style="font-family: times new roman,serif;"><b>Reference</b></font></font></a><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b> &nbsp;&nbsp;&nbsp; </b></font><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/contact.html" style="color: rgb(153, 0, 0);"><font style="color: rgb(153, 0, 0);" size="4"><font style="font-family: times new roman,serif;"><b>Contact</b></font></font></a><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b> &nbsp;&nbsp; </b></font><font style="color: rgb(153, 0, 0);" size="4"><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/oth_use_link.html" style="color: rgb(153, 0, 0);"><b>Other useful links</b></a><span style="color: rgb(153, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/faq.html" style="color: rgb(153, 0, 0);"><b>FAQs</b></a><br>
+</font></div>
+<hr style="color: rgb(153, 0, 0); margin-left: auto; margin-right: auto;" size="2" width="100%">
+<hr style="margin-left: auto; margin-right: auto;" size="2" width="100%">
+<hr style="margin-left: auto; margin-right: auto;" size="2" width="100%">
+<div style="text-align: center;"><b><span style="font-size: 14pt; line-height: 115%;"><font size="4">How
+to use </font><i><font size="4">Dendrimer Builder Toolkit: (DBT)<br>
+</font></i><font style="color: rgb(7, 55, 99);" size="4"><br>
+dbtv2.pl</font><i><font size="4"> (G3 to G6 PAMAM </font></i></span></b><i><b><span style="font-size: 14pt; line-height: 115%;"><font size="4">protonated</font></span></b></i><b><span style="font-size: 14pt; line-height: 115%;"><i><font size="4"> in single run)<br>
+<br>
+</font></i></span></b>
+<hr style="font-family: times new roman,serif;" size="2" width="100%">
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(102, 102, 102);"><i><span style="font-size: 14pt; line-height: 115%;"><br>
+</span></i></p>
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(102, 102, 102);"><i><span style="font-size: 14pt; line-height: 115%;">DBT
+ was tested for generating dendrimer structure
+up to G8. For any query and comments
+please send mail to dbt.query aT gmail.com. This tool works fine with 
+GAFF. We have not tried using other available force field in AMBER. 
+Below we give outline procedure <span style="color: rgb(153, 0, 0);">generating G3 to G6 protonated PAMAM dendrimer
+ using dbtv2.pl</span> in single run.<br>
+</span></i></p>
+
+<hr style="font-family: times new roman,serif;" size="2" width="100%">
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(0, 0, 0);"><b><i><span style="font-size: 12pt; line-height: 115%;">Tutorial with example</span></i></b></p>
+
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(0, 0, 0);"><b><span style="font-size: 12pt; line-height: 115%;">Requirements:</span></b><span style="font-size: 12pt; line-height: 115%;">
+Linux with latest PERL-Tk, AMBER10 and AMBERTOOL-1.2 (Other versions not tried).</span></p>
+
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(0, 0, 0);"><i><span style="font-size: 12pt; line-height: 115%;">While
+preparing this tutorial it was assumed that user has some prior
+knowledge/experience with AMBER software.</span></i></p>
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="3"><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/download.html" style="color: rgb(153, 0, 0);">Download</a>
+ DBT.tar. It contains necessary files to run DBT PERL-Tk script and 
+README file. Extract DBT.tar.</font><br>
+</p>
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);">
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+
+ 
+ 
+<span style="font-size: 12pt; line-height: 150%;"><br>
+</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">Here, the tutorial for generating dendrimer using <span style="color: rgb(204, 0, 0);">dbtv2.pl</span> is illustrated
+by taking example of protonated PAMAM dendrimer (G3 to G6) which uses library named
+<b>pamam_neutral_EDA.lib</b> and GAFF force field. If users are using their own residues in some
+library then, three residues should be named as <b>aaa (core)</b>, <b>bbb (repeating
+fragment)</b> and <b>ccc (terminals)</b> only. Here in pamam_neutral_EDA.lib residues are named as <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/aaa.gif?attredirects=0" target="_blank">aaa</a>, <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/bbb.gif?attredirects=0" target="_blank">bbb</a> and <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/ccc.gif?attredirects=0" target="_blank">ccc</a> </span><span style="font-size: 12pt; line-height: 150%;">(in this tutorial we will use only protonated form of ccc residue)</span><span style="font-size: 12pt; line-height: 150%;">.</span></p>
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif;"><img alt="" src="javascript:void(0);"></p>
+
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><b><span style="font-size: 12pt; line-height: 150%;">Steps for generating 3D structure of PAMAM (G3 to G6) protonated dendrimer using DBT+AMBER modules: <br style="color: rgb(19, 79, 92);">
+</span></b></p>
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(19, 79, 92);"><span style="font-size: 12pt; line-height: 150%;"><i>$AMBERHOME
+ should be defined in .bashrc file. If not done, you can do it simply by
+ adding these two lines in .bashrc file in home:</i></span></p>
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(19, 79, 92);"><span style="font-size: 12pt; line-height: 150%;"><i>export AMBERHOME=/your/path/to/amber10<br>
+export PATH=$PATH:$AMBERHOME/exe</i></span></p>
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;"><span style="color: rgb(19, 79, 92);">This was for bash terminal. One can define $AMBERHOME in cshrc also.</span></span></p>
+
+<div style="text-align: left; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%; font-family: times new roman,serif;">1) Open terminal and type: <b>perl
+dbtv2.pl</b> (<a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/first_step.png?attredirects=0">see image</a>). Press enter key (linux by default most cases has perl but <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/oth_use_link.html">install perl-tk </a>before using dbtv2.pl). It should open GUI like this:<br>
+</span></div>
+
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif;"><b><span style="font-size: 12pt; line-height: 150%;">&nbsp;</span></b></p>
+
+<div style="display: block; text-align: center; margin-right: auto; margin-left: auto;"><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/2dbtv2_pamam.jpg?attredirects=0" imageanchor="1"><img src="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/2dbtv2_pamam.jpg" border="0"></a></div>
+<br style="font-family: times new roman,serif;">
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif;"><img alt="" src="javascript:void(0);"></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;2) In <b>number of layers
+desired </b>field enter 3 (for G3 PAMAM) and in <b>"to</b>" field enter 6. These numbers will run loops in such a
+way that three to six layers of bbb will be put around core aaa and finally
+terminals ccc will join the bbb. Note: You can give any number like 3 to 4 or 1 to 7 or <i><span style="color: rgb(153, 0, 0);">if one desires to build only single generation dendrimer</span>, e.g. G3, then put <b>number of layers</b> 3 <b>to</b> 3</i>. So present example will generate G3, G4, G5 and G6 protonated PAMAM dendrimers.<br>
+</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;3) <b>Core Multiplicity</b> is
+number of arms of central core (aaa residue in pamam_neutral_EDA.lib): set it 4 by clicking
+between 1 to 6 buttons. Then, write the name of joining atoms that you want to
+join with bbb. Only one atom name in each box, here it is C11, C12, C13 and C14.
+(For your own residues and library the name of joining atoms can be seen in <b><i>xleap</i> </b></span><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> loadoff pamam_neutral_EDA.lib </span></b><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> edit aaa </span></b><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> display names</span></b><span style="font-size: 12pt; line-height: 150%;"> or also from
+your.ac file while preparing residues. In this tutorial, you can see the atom
+name by loading pamam_neutral_EDA.lib in <i>xleap</i>).</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;4) <b>Fragment multiplicity</b> is
+number of arms minus one, that is n-1. Set it 2 in this case (3 arms - 1) and
+write atom names. One atom name in each box, here it is C7, C8, N4. The name of
+joining atoms can be seen in <b><i>xleap</i> </b></span><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> loadoff pamam_neutral_EDA.lib </span></b><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> edit bbb </span></b><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> display names</span></b><span style="font-size: 12pt; line-height: 150%;"> or also from
+your.ac file while preparing residues. </span></p>
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(153, 0, 0);"><i><span style="font-size: 12pt; line-height: 150%;">Important:</span></i><span style="font-size: 12pt; line-height: 150%;"> Please note, the atom which becomes joining head atom is written last.
+Here it is N4.</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">5) <b>Terminal multiplicity</b> is
+by default set to 1 only. User cannot change it. Write the name of joining atom
+(here it is N1), which is going to attach with repeating fragment atom (bbb
+residue). The name of joining atoms can be seen in <b><i>xleap</i> </b></span><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> loadoff pamam_neutral_EDA.lib </span></b><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> edit ccc </span></b><b><span style="font-size: 12pt; line-height: 150%;"><span>--&gt;</span></span></b><b><span style="font-size: 12pt; line-height: 150%;"> display names </span></b><span style="font-size: 12pt; line-height: 150%;">or also from
+your.ac file while preparing residues.</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;6) Write the name of <b>force field</b>
+file, here it is gaff.</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;7) Write the name of <b>frcmod file</b>
+for residues aaa, bbb and ccc, if any, otherwise keep it blank. In this
+tutorial it is not desired.</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;8) Write residue containing <b>library
+name</b>. Here pamam_neutral_EDA.lib</span></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif;"><span style="font-size: 12pt; line-height: 150%;"><font color="#000000">&nbsp;9) Now click </font><b style="color: rgb(0, 0, 0);">"go"</b><font color="#000000">
+BUTTON, then click </font><b style="color: rgb(0, 0, 0);">"OK"</b><font color="#000000"> BUTTON and finally click </font><b style="color: rgb(0, 0, 0);">"sander minimization" </b><font color="#990000">(NOTE: min.in should be there in your working directory. The number of steps you can modify according to your need)</font><font color="#000000">. Read step 10 and 11 below.</font><br>
+</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: center; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;"><span style="color: rgb(153, 0, 0);">*****</span><br>
+</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="2"><span style="line-height: 150%;"><b style="color: rgb(153, 0, 0);">dbtv2.pl <i>vs</i> dbtv1_2.pl</b></span></font></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="2"><span style="line-height: 150%;"><b style="color: rgb(153, 0, 0);">Comparison:</b> <span style="color: rgb(68, 68, 68);">If you have used manual dbtv1_2.pl earlier then you will find difference at this step, as all layers will be added without manual interference. But there will be instances in future which can compel to use manual dbtv1_2.pl as one can have intermediate files which contains AMBER commands to join the residues. But in dbtv2.pl the AMBER commands are stored in temporary files which are washed away when one quits the perl. This has big advantage. Suppose one needs to build linear (read below also) or bi-forked polymer having 100 layers!!! (here layer would mean number of monomers). So by using dbtv2.pl , as compared to&nbsp; </span></span></font><font size="2"><span style="line-height: 150%;"><span style="color: rgb(68, 68, 68);">dbtv1_2.pl, </span></span></font><font size="2"><span style="line-height: 150%;"><span style="color: rgb(68, 68, 68);">one need not to see all those text files having AMBER instructions and also using </span></span></font><font size="2"><span style="line-height: 150%;"><span style="color: rgb(68, 68, 68);">dbtv1_2.pl for such cases</span></span></font><font size="2"><span style="line-height: 150%;"><span style="color: rgb(68, 68, 68);"> will unnecessarily fill the directory where you are working.</span></span></font></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="2"><span style="line-height: 150%;"><span style="color: rgb(68, 68, 68);">&nbsp;User can provide their residues in library of desired multiplicity;</span><i style="color: rgb(68, 68, 68);"> </i><span style="color: rgb(68, 68, 68);">core (upto 6) and fragment multiplicity
+(upto 5). Simplest case will be core multiplicity being 1 and fragment
+multiplicity also 1. </span><span style="color: rgb(204, 0, 0);">This will generate linear polymer.</span></span></font></p>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: center; line-height: 150%; font-family: times new roman,serif; color: rgb(153, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">*****</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;">&nbsp;10) When all dendrimer generations are built finally a message will be displayed at bottom of your terminal window displaying "JOB DONE".<br>
+</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 12pt; line-height: 150%;"> 11) PRESS <b>"quit"</b> button. You should now be able to see L3.mol2, L4.mol2, L5.mol2 and L6.mol2 <span style="color: rgb(153, 0, 0);">("L" means layer)</span> which are G3, G4, G5 and G6 PAMAM respectively. These mol2 will be having gaff atom types. So please be sure to source gaff in xleap that is:</span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="3"><span style="line-height: 150%;"><i>source leaprc.gaff</i></span></font></p>
+<div style="text-align: left;"><font style="color: rgb(0, 0, 0);" size="3"><i style="font-family: times new roman,serif;">loadoff pamam_neutral_EDA.lib</i><br style="font-family: times new roman,serif;">
+<i style="font-family: times new roman,serif;">G3 = loadmol2 G3.mol2</i><br style="font-family: times new roman,serif;">
+<i style="font-family: times new roman,serif;">edit G3</i><br style="font-family: times new roman,serif;">
+<i style="font-family: times new roman,serif;">and so on...<br>
+<br>
+</i></font>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(68, 68, 68);"><span style="font-size: 12pt; line-height: 150%;"><b><span style="color: rgb(204, 0, 0);">"Note:</span></b>
+ You will see only *.mol2 files not any intermediate *.out files which 
+are sander outputs and other files. This is because they are removed 
+knowingly or else there will be number of files in your working directory. 
+If you want all files should be retained you can use --info flag like this: <b><br>
+    </b></span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(204, 0, 0);"><span style="font-size: 12pt; line-height: 150%;"><b>perl dbtv2.pl --info number</b></span></p>
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(68, 68, 68);"><span style="font-size: 12pt; line-height: 150%;">where <b style="color: rgb(204, 0, 0);">number</b> can have valid 0,1,2 or 999 values. If you try any other number like </span><span style="font-size: 12pt; line-height: 150%;"> <b>perl
+dbtv2.pl --info 328 </b>DBT will quit displaying valid numbers allowed and what they do.<span style="color: rgb(204, 0, 0);"> </span></span><span style="font-size: 12pt; line-height: 150%;">This --info flag is not available in <b>dbtv1_2.pl</b></span><span style="font-size: 12pt; line-height: 150%;"><span style="color: rgb(204, 0, 0);"> "</span>.</span></p>
+<br>
+</div>
+<hr style="font-family: times new roman,serif; color: rgb(0, 0, 0);" size="2" width="100%">
+
+
+<hr style="font-family: times new roman,serif; color: rgb(0, 0, 0);" size="2" width="100%">
+<font size="2"><b><i><span style="line-height: 150%;">Declaration:</span></i></b></font>
+
+
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="2"><i><span style="line-height: 150%;"><span>1)<span style="font-style: normal; font-variant: normal; font-weight: normal; line-height: normal; font-size-adjust: none; font-stretch: normal;"> </span></span></span></i><i><span style="line-height: 150%;">The DBT could
+have written in more professional way, more short form, better algorithm or
+more user friendly.</span></i></font></p>
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(0, 0, 0);"><font size="2"><i><span style="line-height: 150%;"><span>2)<span style="font-style: normal; font-variant: normal; font-weight: normal; line-height: normal; font-size-adjust: none; font-stretch: normal;"> </span></span></span></i><i><span style="line-height: 150%;">Its further
+development depends on number of users, suggestions, comments etc., though
+support for users will be given and related query, suggestions, comments can be
+sent to </span></i></font><font size="2">maiti aT physics.iisc.ernet.in</font><font size="2"> and</font><font size="2"><i> please must 'cc' mail to dbt.query aT gmail.com</i> (replace aT with @)<i><span style="line-height: 150%;">. Your comments and suggestions are strongly desired to keep DBT alive.</span></i></font></p>
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif;"><font size="2"><i style="color: rgb(0, 0, 0);"><span style="line-height: 150%;"><span>3)<span style="font-style: normal; font-variant: normal; font-weight: normal; line-height: normal; font-size-adjust: none; font-stretch: normal;"> </span></span></span></i><i style="color: rgb(0, 0, 0);"><span style="line-height: 150%;">Geometry management is not that good as may be expected but newer
+versions will be better.</span></i><i><span style="line-height: 150%;"> </span></i></font></p>
+
+<p style="margin-bottom: 0.0001pt; text-align: justify; line-height: 150%; font-family: times new roman,serif; color: rgb(153, 0, 0);"><font size="2"><i><span style="line-height: 150%;"><span>4) </span></span></i><i><span style="line-height: 150%;">DBT alone cannot build dendrimer. It uses AMBER suite of
+programmes like xleap and sander modules for its functioning. DBT just
+calculates the number of residues to be joined according to the desired
+generation, and how they need to be joined is defined by set of xleap commands
+(dbt1,dbt2....dbtN files)which are input to xleap. DBT can be used to generate
+desired dendrimer of any core (upto 6) and fragment multiplicity (upto 5).</span></i></font></p>
+<br>
+</div>
+

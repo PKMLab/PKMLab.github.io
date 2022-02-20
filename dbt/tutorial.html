@@ -1,0 +1,77 @@
+<div style="text-align: center; font-family: times new roman,serif;">
+<div style="text-align: center;">
+<div style="text-align: center;">
+<div style="text-align: center; color: rgb(153, 0, 0);">
+<hr size="2" width="100%">
+<font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b><font style="color: rgb(162, 196, 201); font-family: times new roman,serif;" size="1"><i>DBT</i></font></b></font><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b><br>
+<a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/home.html" style="color: rgb(153, 0, 0);">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/download.html" style="color: rgb(153, 0, 0);">Download</a></b></font><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; </b></font><font style="color: rgb(153, 0, 0);" size="4"><font style="font-family: times new roman,serif;"><b>Tutorial</b></font></font><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b> &nbsp;&nbsp;&nbsp; </b></font><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/reference.html" style="color: rgb(153, 0, 0);"><font style="color: rgb(153, 0, 0);" size="4"><font style="font-family: times new roman,serif;"><b>Reference</b></font></font></a><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b> &nbsp;&nbsp;&nbsp; </b></font><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/contact.html" style="color: rgb(153, 0, 0);"><font style="color: rgb(153, 0, 0);" size="4"><font style="font-family: times new roman,serif;"><b>Contact</b></font></font></a><font style="font-family: times new roman,serif; color: rgb(153, 0, 0);" size="4"><b> &nbsp;&nbsp; </b></font><font style="color: rgb(153, 0, 0);" size="4"><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/oth_use_link.html" style="color: rgb(153, 0, 0);"><b>Other useful links</b></a><span style="color: rgb(153, 0, 0);">&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/faq.html" style="color: rgb(153, 0, 0);"><b>FAQs</b></a><br>
+</font></div>
+<hr style="color: rgb(153, 0, 0);" size="2" width="100%">
+</div>
+<hr size="2" width="100%">
+<hr size="2" width="100%">
+<div style="text-align: left;"><a href="http://www.physics.iisc.ernet.in/%7Emaiti"><font style="color: rgb(106, 168, 79);" size="3"><b>PKM Home</b></font></a><br>
+</div>
+<b><span style="font-size: 14pt; line-height: 115%;"><font size="4">How
+to use </font><i><font size="4">Dendrimer Builder Toolkit: (DBT) </font></i></span></b><br>
+</div>
+</div>
+
+<hr style="font-family: times new roman,serif;" size="2" width="100%">
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 14pt; line-height: 115%;">There are two options in DBT; <i><span style="color: rgb(204, 0, 0);">auto</span> (dbtv2.pl) </i>and&nbsp;<i><span style="color: rgb(255, 0, 0);"><span style="color: rgb(204, 0, 0);">manual</span> <span style="color: rgb(0, 0, 0);">(dbtv1_2.pl)</span></span>.</i> It is worth mentioning the difference between two options here itself, though separate tutorials have been provided for both.<br>
+</span></p>
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(0, 0, 0);"><span style="font-size: 14pt; line-height: 115%;"><i style="color: rgb(204, 0, 0);">dbtv2.pl </i><span style="font-family: times new roman,serif;">helps in building dendrimer (polymers; linear or branched) just with single click on "sander minimization" button. With this user can build one dendrimer generation as well as number&nbsp; of generations in just single run.</span><br>
+</span></p>
+<p style="font-family: times new roman,serif; color: rgb(102, 102, 102); text-align: left;"><span style="font-size: 14pt; line-height: 115%;"> <span style="color: rgb(56, 118, 29);"><i style="color: rgb(204, 0, 0);">dbtv1_2.pl</i><span style="color: rgb(0, 0, 0);"> helps in building manually. Here one can build dendrimer layer by layer. This option one should not use unless the dendrimer system is too complex to be handled. There can be such systems one would like to handle or may encounter.</span><span style="color: rgb(0, 0, 0);"> One has to do more manual clicks (e.g. "sander minimization" clicks one by one as layers are added) which can be useful for 'heavy systems'</span></span>.</span></p>
+<div style="margin-left: 40px;"><br>
+</div>
+<div style="text-align: left;"><b style="color: rgb(255, 0, 0);"><font size="4">Important</font></b>:<br>
+<br>
+</div>
+<font size="3"><i><span style="line-height: 115%;"><span style="color: rgb(102, 102, 102); font-family: times new roman,serif;">NOTE: DBT (dbtv2.pl and dbtv1_2.pl) uses top2mol2 command which will write mol2 file having charges with four decimal places. But residues that we have provided in library files have charges upto six decimal places. So in order to obtain neutral or integral over all charge one need to use mol2 with charges upto six decimal places. If you try without applying following modifications its quite possible one may get over all charge being 0.002 or something like that. </span><br>
+</span></i></font>
+<p style="font-family: times new roman,serif; color: rgb(255, 153, 0); text-align: left;"><b><font size="3"><i><span style="line-height: 115%;">Please make sure and apply following modifications<span style="color: rgb(255, 0, 0);"> (for AmberTools1.2)</span>:</span></i></font></b></p>
+<p style="font-family: times new roman,serif; color: rgb(102, 102, 102); text-align: left;"><span style="font-size: 14pt; line-height: 115%;"><font size="3"><i>1) Edit line 366 in top2mol2.c (in the /src/antechamber directory)<br>
+&nbsp;</i></font></span></p>
+<p style="font-family: times new roman,serif; color: rgb(102, 102, 102); text-align: left;"><span style="font-size: 14pt; line-height: 115%;"><font size="3"><i>fprintf(fpout, "%7ld %-8s%10.4lf%10.4lf%10.4lf %-6s%5ld %-8s%<span style="color: rgb(255, 0, 0);">10.4</span>lf\n", tmpint, atomname[i].str,<br>
+</i></font></span></p>
+<p style="font-family: times new roman,serif; color: rgb(102, 102, 102); text-align: left;"><span style="font-size: 14pt; line-height: 115%;"><font size="3"><i>TO<br>
+</i></font></span></p>
+<p style="font-family: times new roman,serif; color: rgb(102, 102, 102); text-align: left;"><span style="font-size: 14pt; line-height: 115%;"><font size="3"><i>fprintf(fpout, "%7ld %-8s%10.4lf%10.4lf%10.4lf %-6s%5ld %-8s%<span style="color: rgb(255, 0, 0);">10.6</span>lf\n", tmpint, atomname[i].str,<br>
+<br>
+2) go to&nbsp; /src/antechamber and type this in your terminal:<br>
+<br>
+make install<br>
+<a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/faq.html" style="color: rgb(204, 0, 0);">(if getting error see FAQ number 2)</a><br>
+it will recompile the things in antechamber directory alone (which has required top2mol2.c)</i></font></span></p>
+<hr style="font-family: times new roman,serif;" size="2" width="100%">
+<br>
+<p style="text-align: justify; font-family: times new roman,serif; color: rgb(68, 68, 68);"><font size="5"><b><i><span style="line-height: 115%;">Tutorial with example</span></i></b></font></p>
+<b><font size="4"><font face="'times new roman', serif"><br>
+1) PAMAM (neutral pH)</font><br>
+<br>
+</font></b><b><font style="font-family: times new roman,serif;" size="4">&nbsp;&nbsp; a) <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/tutorialdbtv2_pamam.html" style="color: rgb(153, 0, 0);">auto</a> (dbtv2.pl)</font></b><br>
+<b><font style="font-family: times new roman,serif;" size="4"><br>
+&nbsp;&nbsp; b) <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/tutorialdbtv1_2_pamam.html" style="color: rgb(153, 0, 0);">manual</a> (dbtv1_2.pl)<br>
+<br>
+</font></b><b><font style="font-family: times new roman,serif;" size="4">2) PPI (high pH)</font></b><br>
+<b><font style="font-family: times new roman,serif;" size="4">&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/tutorialdbtv2_ppi.html" style="color: rgb(153, 0, 0);">auto</a></font></b><b><font style="font-family: times new roman,serif;" size="4">&nbsp;(dbtv2.pl)</font></b><b><font style="font-family: times new roman,serif;" size="4"><br>
+<br>
+
+</font></b><b><font style="font-family: times new roman,serif;" size="4">3) PPI (neutral pH; 2/3rd protonated)</b><br> 
+<br>
+ <i><font style="font-family: times new roman,serif;" size="3"> (contributed by Vaibhav Jain, NIPER)</i></font><br>
+<b><font style="font-family: times new roman,serif;" size="4">&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/tutorial_PPI_neutral_DAB.pdf" style="color: rgb(153, 0, 0);">Download PDF</a></font></b><b><font style="font-family: times new roman,serif;" size="4">&nbsp;and <a href="http://www.physics.iisc.ernet.in/%7Emaiti/dbt/library.tar" style="color: rgb(153, 0, 0);">library</a></font></b><font style="font-family: times new roman,serif;" size="4">&nbsp; (using dbtv1_2.pl and ppi_neutral_DAB.lib)</font><b><font style="font-family: times new roman,serif;" size="4"><br>
+
+<br>
+<br>
+</font></b>
+<div style="display: block; text-align: center; margin-right: auto; margin-left: auto; font-family: times new roman,serif;"></div>
+<br style="font-family: times new roman,serif;">
+<p style="text-align: justify; line-height: 150%; font-family: times new roman,serif;"><img alt="" src="javascript:void(0);"></p>
+<br>
+<hr style="font-family: times new roman,serif; color: rgb(0, 0, 0);" size="2" width="100%">
+<br>
+

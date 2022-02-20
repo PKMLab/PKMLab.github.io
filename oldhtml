@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>
+		Home page for maiti
+	</title>
+</head>
+<body bgcolor="#42426f" text="#ffffff" link="#ffff00" vlink="#93db70" alink="#cc3232" background=/images/logo.gif>
+<h1 align=center>
+	Prabal K Maiti's Home Page
+</h1>
+
+<p>
+
+<center>
+<P><img src=slogo.gif align=center>
+<P>Send <a href="mailto:maiti@bly.colorado.edu">email to me.</a>
+</center>
+
+<hr size=3 width=80% noshade>
+
+<p>
+<dl>
+<dt><b>Address:</b>
+<dd><A HREF="http://bly.colorado.edu/">Codensed Matter Laboratory,
+Dept. of Physics, University of Colorado </A>
+<dd>Boulder, CO 80309,
+<dd>USA.
+<dt><b>Work Phone:</b>
+<dd>(01)303-492-4680 
+<dt><b>FAX:</b>
+<dd>(01)303-492-2998 
+<dt><b>E-Mail:</b>
+<dd><a href="mailto:maiti@colorado.edu">maiti@colorado.edu</a>
+</dl>
+
+
+<H3>
+<FONT COLOR= YELLOW>
+<a href="science.html"><img border=0 ALT="Have a look at my 
+current Research Interest"
+src="images/anbhball.gif"/></a>       <H3>My scientific background 
+and interests</H3><BR>
+
+<a href="private.html"><img border=0 ALT="Link to my private homepage"
+src="images/anbhball.gif"/></a>    <H3>   My private homepage</H3
+><BR>
+
+
+<a href="PhD.html" ><img border=0 ALT="Link to my PhD Project"
+src="images/anbhball.gif"/></a>   <H3>     My current Research 
+Project</H3></blink><BR>
+
+
+</FONT>
+</H3>
+
+
+
+</body>
+</html>
